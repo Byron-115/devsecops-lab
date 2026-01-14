@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DevSecOps Dashboard</title>
+    <style>
+        body { font-family: sans-serif; background-color: #1e1e2e; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background-color: #2e2e42; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); text-align: center; }
+        h1 { color: #a6e3a1; }
+        .stat { font-size: 2rem; font-weight: bold; color: #f38ba8; }
+        .badge { background: #89b4fa; color: #1e1e2e; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🛡️ Security Dashboard</h1>
+        <p>Estado del Sistema: <span class="badge">SECURE</span></p>
+        <hr style="border-color: #45475a;">
+        <p>Vulnerabilidades Críticas</p>
+        <div class="stat">0</div>
+        <p><small>Monitorizado por Terraform & Docker</small></p>
+    </div>
+</body>
+</html>
